@@ -1,17 +1,11 @@
 ---
-added: '2023-12-07 16:25:07.958941'
-thumbnail: https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2F/full/,500/0/default.jpg
-title: Provenance
-user: Anne McLaughlin
-
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}manifests/manuscripts/Provenance.json/manifest.json",
   "@type": "sc:Manifest",
-  "@id": "https://am2539.github.io/iiif_2023_workshop/manifests/manuscripts/Provenance.json/manifest.json",
   "label": "Provenance",
-  "description": "A test manifest for the provenance project\n",
-  "thumbnail": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2F/full/,500/0/default.jpg",
   "metadata": [
     {
       "label": "Field 1",
@@ -34,282 +28,354 @@ user: Anne McLaughlin
       "value": "<a href='https://lib-cat.trin.cam.ac.uk/Search/Results?lookfor=Ailesbury%2C+Charles+Bruce%2C+&type=AllFields&limit=20'>Ailesbury\n</a><p><a href='https://lib-cat.trin.cam.ac.uk/Record/cbbca3b2-12bd-4e4a-92bd-5b4b8ef8c423'>Anstruther,\n</a></p><p><a href='https://lib-cat.trin.cam.ac.uk/Record/52f1c5c6-00ff-477e-b5f9-b1fdf8f34961'>Crewe 33.33\n</a></p>"
     }
   ],
-  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "description": "A test manifest for the provenance project\n",
+  "thumbnail": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2F/full/,500/0/default.jpg",
   "attribution": "Trinity College, Cambridge",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
   "logo": "https://mss-cat.trin.cam.ac.uk/manuscripts/files/logo.png",
   "sequences": [
     {
       "@type": "sc:Sequence",
-      "viewingHint": "individuals",
       "viewingDirection": "left-to-right",
+      "viewingHint": "individuals",
       "canvases": [
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Ailesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/canvas/1682-1747",
+          "@type": "sc:Canvas",
           "label": "Ailesbury, Charles Bruce Earl of, 1682-1747",
-          "width": 1547,
           "height": 2020,
+          "width": 1547,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Ailesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/canvas/1682-1747",
               "resource": {
-                "label": "Ailesbury, Charles Bruce Earl of, 1682-1747",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FAilesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ailesbury, Charles Bruce Earl of, 1682-1747",
+                "format": "image/jpeg",
+                "height": 2020,
+                "width": 1547,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FAilesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 1547,
-                "height": 2020
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Ailesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/canvas/1682-1747"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/ailesbury-charles-bruce-earl-of-1682-1747-jp2-1682-1747-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753",
+          "@type": "sc:Canvas",
           "label": "Anstruther, John, 1678-1753",
-          "width": 857,
           "height": 1011,
+          "width": 857,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753",
               "resource": {
-                "label": "Anstruther, John, 1678-1753",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FAnstruther,_John,_1678-1753.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Anstruther, John, 1678-1753",
+                "format": "image/jpeg",
+                "height": 1011,
+                "width": 857,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FAnstruther,_John,_1678-1753.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 857,
-                "height": 1011
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/anstruther-john-1678-1753-jp2-1678-1753-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Augustus,_Frederick,_Prince_Duke_of_Sussex,_1773-1843.jp2/canvas/1773-1843",
+          "@type": "sc:Canvas",
           "label": "Augustus, Frederick, Prince Duke of Sussex, 1773-1843",
-          "width": 843,
           "height": 1188,
+          "width": 843,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Augustus,_Frederick,_Prince_Duke_of_Sussex,_1773-1843.jp2/canvas/1773-1843",
               "resource": {
-                "label": "Augustus, Frederick, Prince Duke of Sussex, 1773-1843",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FAugustus,_Frederick,_Prince_Duke_of_Sussex,_1773-1843.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Augustus, Frederick, Prince Duke of Sussex, 1773-1843",
+                "format": "image/jpeg",
+                "height": 1188,
+                "width": 843,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FAugustus,_Frederick,_Prince_Duke_of_Sussex,_1773-1843.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 843,
-                "height": 1188
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Augustus,_Frederick,_Prince_Duke_of_Sussex,_1773-1843.jp2/canvas/1773-1843"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/augustus-frederick-prince-duke-of-sussex-1773-1843-jp2-1773-1843-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Baldwin,_John,_Esquire.jp2/canvas/Esquire",
+          "@type": "sc:Canvas",
           "label": "Baldwin, John, Esquire",
-          "width": 1372,
           "height": 1651,
+          "width": 1372,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Baldwin,_John,_Esquire.jp2/canvas/Esquire",
               "resource": {
-                "label": "Baldwin, John, Esquire",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBaldwin,_John,_Esquire.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Baldwin, John, Esquire",
+                "format": "image/jpeg",
+                "height": 1651,
+                "width": 1372,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBaldwin,_John,_Esquire.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 1372,
-                "height": 1651
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Baldwin,_John,_Esquire.jp2/canvas/Esquire"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/baldwin-john-esquire-jp2-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Beauchamp,_William_Lygon,_Earl_1747-1816.jp2/canvas/1747-1816",
+          "@type": "sc:Canvas",
           "label": "Beauchamp, William Lygon, Earl 1747-1816",
-          "width": 843,
           "height": 972,
+          "width": 843,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Beauchamp,_William_Lygon,_Earl_1747-1816.jp2/canvas/1747-1816",
               "resource": {
-                "label": "Beauchamp, William Lygon, Earl 1747-1816",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBeauchamp,_William_Lygon,_Earl_1747-1816.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Beauchamp, William Lygon, Earl 1747-1816",
+                "format": "image/jpeg",
+                "height": 972,
+                "width": 843,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBeauchamp,_William_Lygon,_Earl_1747-1816.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 843,
-                "height": 972
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Beauchamp,_William_Lygon,_Earl_1747-1816.jp2/canvas/1747-1816"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/beauchamp-william-lygon-earl-1747-1816-jp2-1747-1816-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Bibliotheque_du_Chateau_de_Tanqueux.jp2/canvas/Tanqueux",
+          "@type": "sc:Canvas",
           "label": "Bibliotheque du Chateau de Tanqueux",
-          "width": 1679,
           "height": 1728,
+          "width": 1679,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Bibliotheque_du_Chateau de_Tanqueux.jp2/canvas/Tanqueux",
               "resource": {
-                "label": "Bibliotheque du Chateau de Tanqueux",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBibliotheque_du_Chateau_de_Tanqueux.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Bibliotheque du Chateau de Tanqueux",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 1679,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBibliotheque_du_Chateau_de_Tanqueux.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 1679,
-                "height": 1728
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Bibliotheque_du_Chateau de_Tanqueux.jp2/canvas/Tanqueux"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/bibliotheque-du-chateau-de-tanqueux-jp2-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Brodhurst,_John_Edward.jp2/canvas/Edward",
+          "@type": "sc:Canvas",
           "label": "Brodhurst, John Edward",
-          "width": 760,
           "height": 804,
+          "width": 760,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Brodhurst,_John_Edward.jp2/canvas/Edward",
               "resource": {
-                "label": "Brodhurst, John Edward",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBrodhurst,_John_Edward.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Brodhurst, John Edward",
+                "format": "image/jpeg",
+                "height": 804,
+                "width": 760,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FBrodhurst,_John_Edward.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 760,
-                "height": 804
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Brodhurst,_John_Edward.jp2/canvas/Edward"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/brodhurst-john-edward-jp2-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Chorley,_William_Brownsword.jp2/canvas/Brownsword",
+          "@type": "sc:Canvas",
           "label": "Chorley, William Brownsword",
-          "width": 406,
           "height": 127,
+          "width": 406,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Chorley,_William_Brownsword.jp2/canvas/Brownsword",
               "resource": {
-                "label": "Chorley, William Brownsword",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FChorley,_William_Brownsword.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Chorley, William Brownsword",
+                "format": "image/jpeg",
+                "height": 127,
+                "width": 406,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FChorley,_William_Brownsword.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 406,
-                "height": 127
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Chorley,_William_Brownsword.jp2/canvas/Brownsword"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/chorley-william-brownsword-jp2-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Inchiquin,_Morrough_OBrien,_Earl_of,_-1808.jp2/canvas/-1808",
+          "@type": "sc:Canvas",
           "label": "Inchiquin, Morrough OBrien, Earl of, -1808",
-          "width": 1437,
           "height": 1743,
+          "width": 1437,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Inchiquin,_Morrough_OBrien,_Earl_of,_-1808.jp2/canvas/-1808",
               "resource": {
-                "label": "Inchiquin, Morrough OBrien, Earl of, -1808",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FInchiquin,_Morrough_OBrien,_Earl_of,_-1808.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Inchiquin, Morrough OBrien, Earl of, -1808",
+                "format": "image/jpeg",
+                "height": 1743,
+                "width": 1437,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FInchiquin,_Morrough_OBrien,_Earl_of,_-1808.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 1437,
-                "height": 1743
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Inchiquin,_Morrough_OBrien,_Earl_of,_-1808.jp2/canvas/-1808"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/inchiquin-morrough-obrien-earl-of-1808-jp2-1808-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
         {
-          "@type": "sc:Canvas",
           "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Lyte,_Henry_Francis,_1793-1834.jp2/canvas/1793-1834",
+          "@type": "sc:Canvas",
           "label": "Lyte, Henry Francis, 1793-1834",
-          "width": 1211,
           "height": 1517,
+          "width": 1211,
           "images": [
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Lyte,_Henry_Francis,_1793-1834.jp2/canvas/1793-1834",
               "resource": {
-                "label": "Lyte, Henry Francis, 1793-1834",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
                 "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FLyte,_Henry_Francis,_1793-1834.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Lyte, Henry Francis, 1793-1834",
+                "format": "image/jpeg",
+                "height": 1517,
+                "width": 1211,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://trin-digital-library.trin.cam.ac.uk/iiif/2/Provenance%2FLyte,_Henry_Francis,_1793-1834.jp2",
                   "profile": "http://iiif.io/api/image/2/level2.json"
-                },
-                "width": 1211,
-                "height": 1517
-              }
+                }
+              },
+              "on": "https://mss-cat.trin.cam.ac.uk/manuscripts/Lyte,_Henry_Francis,_1793-1834.jp2/canvas/1793-1834"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/lyte-henry-francis-1793-1834-jp2-1793-1834-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
@@ -318,10 +384,10 @@ user: Anne McLaughlin
   ],
   "structures": [
     {
+      "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Provenance/range/r0",
       "@type": "sc:Range",
       "label": "Table of Contents",
       "viewingHint": "top",
-      "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Provenance/range/r0",
       "ranges": [
         "https://https://mss-cat.trin.cam.ac.uk/manuscripts/Provenance/range/r1",
         "https://https://mss-cat.trin.cam.ac.uk/manuscripts/Provenance/range/r2",
