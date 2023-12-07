@@ -1,0 +1,49 @@
+---
+canvas: "https://mss-cat.trin.cam.ac.uk/manuscripts/Ailesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/canvas/1682-1747"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The Right Honourable Charles Viscount Bruce",
+            "purpose": "identifying",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:27:36.971Z",
+            "modified": "2023-12-07T16:27:59.832Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "name",
+            "purpose": "tagging",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:27:53.420Z",
+            "modified": "2023-12-07T16:27:53.749Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://am2539.github.io/iiif_2023_workshop/manifests/manuscripts/Provenance.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Ailesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/canvas/1682-1747",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=168.96376037597656,1373.0145263671875,1135.884017944336,134.6666259765625"
+        }
+    },
+    "id": "0071399b-35ee-48d5-833d-7883dce45352.json",
+    "motivation": "commenting"
+}
