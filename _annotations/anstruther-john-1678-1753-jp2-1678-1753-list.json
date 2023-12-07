@@ -1,0 +1,9 @@
+---
+canvas_id: "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
