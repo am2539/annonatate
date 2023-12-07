@@ -1,0 +1,48 @@
+---
+canvas: "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Decorated initial",
+            "purpose": "commenting",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:45:06.758Z",
+            "modified": "2023-12-07T16:45:19.132Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "penwork",
+            "purpose": "tagging",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:45:14.327Z",
+            "modified": "2023-12-07T16:45:16.126Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"179.32626342773438,536.5762939453125 276.5989990234375,536.5762939453125 281.1444396972656,939.3035888671875 203.87171936035156,937.4854125976562 194.7808074951172,777.4854125976562\"></polygon></svg>"
+        }
+    },
+    "id": "04535bea-1bd5-4023-9f37-11a336f2ee6f.json",
+    "motivation": "commenting"
+}
