@@ -1,0 +1,38 @@
+---
+canvas: "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<a> href=\"https://lib-cat.trin.cam.ac.uk/Record/cbbca3b2-12bd-4e4a-92bd-5b4b8ef8c423\"</a>",
+            "purpose": "commenting",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:31:16.576Z",
+            "modified": "2023-12-07T16:31:48.036Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://am2539.github.io/iiif_2023_workshop/manifests/manuscripts/Provenance.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6.843009948730469,8.967994689941406,840.057991027832,989.8357772827148"
+        }
+    },
+    "id": "91309cd1-de97-4900-ab13-daaeee233936.json",
+    "motivation": "commenting"
+}
