@@ -1,0 +1,67 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot//Screenshot20231204at110530",
+  "height": 1912,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 239,
+      "width": 368
+    },
+    {
+      "height": 120,
+      "width": 184
+    },
+    {
+      "height": 60,
+      "width": 92
+    },
+    {
+      "height": 30,
+      "width": 46
+    },
+    {
+      "height": 15,
+      "width": 23
+    },
+    {
+      "height": 7,
+      "width": 11
+    },
+    {
+      "height": 4,
+      "width": 6
+    },
+    {
+      "height": 2,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 512
+    }
+  ],
+  "width": 2940
+}

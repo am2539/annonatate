@@ -1,0 +1,55 @@
+---
+added: 2023-12-07 16&#58;38&#58;05.099073
+thumbnail: https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530/full/184,/0/default.jpg
+title: Biblissima screenshot
+user: Anne McLaughlin
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Biblissima screenshot",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": "cc-by-nc"
+    }
+  ],
+  "description": "Images of Genesis from three mss",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json",
+          "@type": "sc:Canvas",
+          "label": "Screenshot 2023-12-04 at 11.05.30",
+          "thumbnail": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530/full/184,/0/default.jpg",
+          "height": 1912,
+          "width": 2940,
+          "images": [
+            {
+              "@id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1912,
+                "width": 2940,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
