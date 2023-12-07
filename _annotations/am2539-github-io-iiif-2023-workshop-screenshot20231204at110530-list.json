@@ -1,0 +1,9 @@
+---
+canvas_id: "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
