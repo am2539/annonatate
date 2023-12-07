@@ -1,0 +1,49 @@
+---
+canvas: "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Incipit liber geneseos\n    Capitulum primum",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:44:05.584Z",
+            "modified": "2023-12-07T16:44:33.179Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Rubric",
+            "purpose": "tagging",
+            "creator": {
+                "id": "am2539",
+                "name": "Anne McLaughlin"
+            },
+            "created": "2023-12-07T16:44:35.828Z",
+            "modified": "2023-12-07T16:44:36.542Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://am2539.github.io/iiif_2023_workshop/img/derivatives/iiif/biblissimascreenshot/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://am2539.github.io/iiif_2023_workshop/canvas/img/derivatives/iiif/biblissimascreenshot/Screenshot20231204at110530.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=278.41717529296875,480.2126770019531,419.09088134765625,87.27273559570312"
+        }
+    },
+    "id": "9ee7d308-a0de-422a-8dff-ffdeb0b43a58.json",
+    "motivation": "commenting"
+}
